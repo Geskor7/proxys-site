@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  const startMessage = "Click to Enter.";
+  const startMessage = "Click here to enter or ima chop off ur dick";
   let startTextContent = '';
   let startIndex = 0;
   let startCursorVisible = true;
@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const bioMessages = [
-    "I EAT SAND AND ALSO FUCK YOU GUNS.LOL",
+    "Fu*k Guns.lol & Fakecrime.bio got banned too often, so I created my own.",
     "\"Hello, World!\""
   ];
   let bioText = '';

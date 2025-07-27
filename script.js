@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  const startMessage = "Click here to enter or ima chop off ur dick";
+  const startMessage = "Click here to Enter.";
   let startTextContent = '';
   let startIndex = 0;
   let startCursorVisible = true;

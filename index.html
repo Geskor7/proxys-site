@@ -11,16 +11,18 @@
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
 </head>
 <body>
-  <!-- Background wrapper -->
   <div id="vanta-bg">
     <div class="content">
-      <h1>Proxy.lol</h1>
-      <p>Coming soon.</p>
-    </div>
+      <h1>proxys.lol</h1>
+      <p>The red zone has arrived.</p>
+      <div class="buttons">
+        <a href="https://youtube.com" target="_blank">YouTube</a>
+        <a href="https://chat.openai.com" target="_blank">ChatGPT</a>
+        <a href="https://example.com/games" target="_blank">Games</a>
+      </div>
     </div>
   </div>
 
-  <!-- Vanta script: load AFTER page content -->
   <script>
     window.addEventListener('DOMContentLoaded', () => {
       VANTA.NET({
@@ -32,8 +34,8 @@
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-        color: ff0000,
-        backgroundColor: 000000
+        color: 0xff0000,           // red lines
+        backgroundColor: 0x000000  // pitch black background
       })
     });
   </script>

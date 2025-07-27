@@ -1,7 +1,41 @@
 body {
-  background-color: #111;
-  color: #fff;
-  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
   text-align: center;
-  padding: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #00ffcc;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  background: #1a1a1a;
+  border: 2px solid #00ffcc;
+  color: #00ffcc;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.buttons a:hover {
+  background: #00ffcc;
+  color: #000;
 }
